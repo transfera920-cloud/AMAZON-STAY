@@ -1,0 +1,6 @@
+{
+  "name": "登山留守人的角色與價值 - 山下的守護者",
+  "description": "亞馬遜國家山岳協會登山安全宣導：重新定義留守人於登山安全的角色——他不是等待消息的人，而是守護整趟旅程安全的最後一道防線。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
