@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 
 async function prerender() {
   const rootDir = process.cwd();
-  const templatePath = path.resolve(rootDir, 'dist/index.html');
+  const templatePath = path.resolve(rootDir, 'dist/chapter23/index.html');
   const serverEntryPath = path.resolve(rootDir, 'dist-server/entry-server.js');
 
   if (!fs.existsSync(templatePath)) {
@@ -26,7 +26,7 @@ async function prerender() {
   );
 
   fs.writeFileSync(templatePath, finalHtml, 'utf-8');
-  console.log(`[prerender] Successfully prerendered static HTML into dist/index.html (${appHtml.length} bytes)`);
+  console.log(`[prerender] Successfully prerendered static HTML into dist/chapter23/index.html (${appHtml.length} bytes)`);
 }
 
 prerender().catch((err) => {
